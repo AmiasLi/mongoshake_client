@@ -1,6 +1,6 @@
 # mongoshake-go
 
-A client to getting [MongoShake]() information.
+A client to getting [MongoShake](https://github.com/alibaba/MongoShake) information.
 
 ## Usage
 
@@ -23,5 +23,6 @@ func main() {
 
 	repl, _ := client.GetRepl()
 	fmt.Println(repl)
+}
 ```
 
