@@ -20,4 +20,6 @@ func main() {
 	executor, _ := client.GetExecutor()
 	fmt.Println(executor)
 
+	queue, _ := client.GetQueue()
+	fmt.Println(queue)
 }
